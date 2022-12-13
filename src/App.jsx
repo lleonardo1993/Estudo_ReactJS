@@ -7,6 +7,7 @@ import Card from "./layout/Card";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Familia from "./components/basicos/Familia";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import ListaProdutos from "./components/repeticao/ListaProdutos";
 import Aleatorio from "./components/Aleatorio";
 import Primeiro from "./components/basicos/Primeiro";
 import ComParametro from "./components/basicos/ComParametro";
@@ -21,6 +22,11 @@ export default function App(props) {
 
             <div className="Cards">
 
+                <Card titulo="#08 - Desafio Repetição" color="#FF9765">
+                <ListaProdutos></ListaProdutos>
+                </Card>
+
+              
                 <Card titulo="#07 - Repetiçao" color="#FF4C65">
                         <ListaAlunos></ListaAlunos>
                 </Card>
